@@ -12,7 +12,7 @@
       <p>Desarrollador Frontend en formacion</p>
     </header>
     <main>
-      <section>
+      <section id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>Soy un entuciasta de la Tecnología con experiencia en atencion al cliente (CSR bilingüe). 
           Actualmente, estoy estudiando programación de forma autodidacta, enfocándome en el desarrollo frontend. 
@@ -22,6 +22,27 @@
           CSS y JavaScript, y estoy trabajando en proyectos personales para seguir mejorando.
           Me apasiona el desarrollo web y estoy emocionado por las oportunidades que vienen.</p>
       </section>
+      <section id="proyectos">
+        <h2>Mis Proyetos</h2>
+        <div calss="proyecto">
+          <h3>Calculadora interactiva</h3>
+          <p>Un proyecto donde desarrollé una calculadora simple con JavaScript</p>
+        </div>
+        <section  id="contacto">
+          <h2>Contacto</h2>
+          <form action="mailto:pedroazarateflores@icon.edu.mx" method="post" enctype="test/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensjae" required></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
     </main>
     <script src="script.js"></script>
   </body>
