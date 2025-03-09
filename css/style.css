@@ -1,12 +1,32 @@
 body {
-  font-family: Arial, sans-sefir;
+  font-family: 'Roboto', sans-sefir;
   text-algin: center;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 20px;
 }
 
 header {
   background: #333;
   color: white;
   padding: 20px;
+}
+
+h2 {
+  color: #ffd700;
+}
+section {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }
