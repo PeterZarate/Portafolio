@@ -1,10 +1,10 @@
-const saludo = document.getElementById("saludo");
+const saludo = document.getElementById('saludo');
 const hora = new Date().getHours();
 
-if (hora < 12){
-  saludo.textContent = "!Buenos días¡";
+if (hora < 12) {
+  saludo.textContent = "¡Buenos días!";
 } else if (hora < 18) {
-  saludo.textContent = "!Buenas tardes¡";
+  saludo.textContent = "¡Buenas tardes!";
 } else {
-  saludo.textContent = "!Buenas noches¡";
+  saludo.textContent = "¡Buenas noches!";
 }
